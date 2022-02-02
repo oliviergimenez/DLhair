@@ -1,0 +1,85 @@
+---
+title: "Deep learning"
+author: "Olivier Gimenez"
+date: "last updated: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, "slides-theme.css"]
+    lib_dir: libs
+    nature:
+      ratio: '16:9' 
+      highlightStyle: github
+      highlightLines: true
+      slideNumberFormat: ''
+      titleSlideClass: [center, middle]
+---
+
+```{r setup, include=FALSE, echo=FALSE, cache = FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(comment = "")
+library(tidyverse)
+theme_set(theme_light())
+update_geom_defaults("point", list(size = 2)) 
+```
+
+## Short introduction
+
+## Case study 1: Identify animal species on images from camera traps.
+
+## Case study 2: Predict from patients' CT scans those who will develop severe illness from Covid.
+
+## Pointers towards resources
+
+---
+
+# Short introduction
+
+IA : champ disciplinaire scientifique qui s’intéresse aux techniques permettant à un ordinateur/système d’effectuer une tâche ou résoudre un problème qui nécessite usuellement l’intelligence humaine.
+
+```{r, echo=FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("https://www.sfecologie.org/wp-content/uploads/2021/02/R95-fig7.jpg")
+```
+
+https://www.sfecologie.org/regard/r95-fev-2021-miele-dray-gimenez-deep-learning/
+
+---
+
+# Case study 1: Identify animal species on images from camera traps.
+
+https://oliviergimenez.github.io/computo-deeplearning-occupany-lynx/#appendix-reproducible-example-of-species-identification-on-camera-trap-images-with-cpu
+
+See demo.Rmd (/Users/oliviergimenez/Dropbox/OG/GITHUB/computo-deeplearning-occupany-lynx)
+
+---
+
+# Case study 2: Predict from patients' CT scans those who will develop severe illness from Covid.
+
+https://oliviergimenez.github.io/blog/image-classif/
+
+See index.Rmd (/Users/oliviergimenez/Dropbox/OG/GITHUB/bin-image-classif)
+
+---
+
+# Ressources
+
+- [Rencontres autour de l'utilisation des méthodes d'apprentissage profond
+pour l'analyse d'image et de son en écologie](https://imaginecology.sciencesconf.org/)
+
+- [A curated list of deep learning resources for computer vision in ecology !](https://ecostat.gitlab.io/imaginecology/)
+
+- [Introduction au Deep Learning](https://www.youtube.com/c/CNRSFormationFIDLE?app=desktop)
+
+- [Experimenting with machine learning in R with tidymodels and the Kaggle titanic dataset](https://oliviergimenez.github.io/blog/learning-machine-learning/)
+
+---
+
+# Misceallenous
+
++ Simon Chamaillé, vincent Miele, Noa Rigoudy: https://www.deepfaune.cnrs.fr/
+
++ Marine Desprez: post-doc on classification in ecology
+
++ Mathias Aloui: Master internship on re-identification of seahorses on pictures
+
++ Dedicated session at [journées GDR EcoStat April 4-5, 2022](https://gdrecostat2022.sciencesconf.org/)
+
