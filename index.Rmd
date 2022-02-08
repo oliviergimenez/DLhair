@@ -83,3 +83,8 @@ pour l'analyse d'image et de son en écologie](https://imaginecology.sciencescon
 
 + Dedicated session at [journées GDR EcoStat April 4-5, 2022](https://gdrecostat2022.sciencesconf.org/)
 
++ mbaza Offline artificial intelligence software for camera trap image classification <https://github.com/Appsilon/mbaza/releases/download/v1.2.1/Mbaza.AI.user.guide.v1-2-1.EN.pdf>
+
++ Wildlife Insights <https://www.wildlifeinsights.org/home>
+
+
